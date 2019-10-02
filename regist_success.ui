@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>regist_success</class>
+ <widget class="QDialog" name="regist_success">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>749</width>
+    <height>369</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>60</y>
+     <width>551</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	background:#333;
+	border-radius:50px
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	color:#49ebff;
+	font: 28pt &quot;AR JULIAN&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Congratulation!</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>80</y>
+      <width>231</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	color:#49ebff;
+	font: 20pt &quot;AR JULIAN&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Regist success!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="auto_login_button">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>160</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	background:#49ebff;
+	font: 20pt &quot;AR JULIAN&quot;;
+	border-radius:18;
+}
+
+QPushButton:hover
+{
+	background:red;
+}</string>
+    </property>
+    <property name="text">
+     <string>auto-login</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="regist_another_button">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>160</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	background:#49ebff;
+	font: 20pt &quot;AR JULIAN&quot;;
+	border-radius:18;
+}
+
+*:hover
+{
+	background:red;
+}</string>
+    </property>
+    <property name="text">
+     <string>Regist another</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_button">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	
+	font: 15pt &quot;黑体&quot;;
+	
+	color: rgb(175, 175, 175);
+	text-decoration: underline;
+	background:#333;
+}
+
+QPushButton:hover{
+	background:#49ebff;
+	border-radius:18px;
+}</string>
+    </property>
+    <property name="text">
+     <string>quit</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

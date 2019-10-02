@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>C:/Users/W541/Pictures/login/background_1.jpg</file>
+        <file>C:/Users/W541/Pictures/login/backgorund.jpg</file>
+        <file>C:/Users/W541/Pictures/login/QQ截图20190503222414.png</file>
+        <file>C:/Users/W541/Pictures/login/close21.png</file>
+        <file>C:/Users/W541/Pictures/login/icon_close_alt2.png</file>
+        <file>C:/Users/W541/Pictures/login/tableground.jpg</file>
+        <file>C:/Users/W541/Pictures/login/background_1_meitu_2.jpg</file>
+        <file>C:/Users/W541/Pictures/login/tablebackgorund.png</file>
+        <file>C:/Users/W541/Pictures/login/background_1 - 副本_meitu_1.jpg</file>
+    </qresource>
+</RCC>

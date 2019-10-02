@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>input_wrong</class>
+ <widget class="QDialog" name="input_wrong">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>686</width>
+    <height>389</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>60</y>
+     <width>551</width>
+     <height>251</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">*{
+	background:#333;
+	border-radius:50px
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>10</y>
+      <width>291</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	color:red;
+	font: 28pt &quot;AR JULIAN&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>     So sorry</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>70</y>
+      <width>401</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	color:red;
+	font: 20pt &quot;AR JULIAN&quot;;
+}</string>
+    </property>
+    <property name="text">
+     <string>Username or Password wrong!</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="regist_another_button">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>150</y>
+      <width>211</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	background:red;
+	font: 20pt &quot;AR JULIAN&quot;;
+	border-radius:18;
+}
+
+QPushButton:hover
+{
+	background:#49ebff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Login agin</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="close_button">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>10</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">*{
+	
+	font: 15pt &quot;黑体&quot;;
+	
+	color: rgb(175, 175, 175);
+	text-decoration: underline;
+	background:#333;
+}
+
+QPushButton:hover{
+	background:red;
+	border-radius:18px;
+}</string>
+    </property>
+    <property name="text">
+     <string>quit</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
